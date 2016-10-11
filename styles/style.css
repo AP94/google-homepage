@@ -1,0 +1,32 @@
+#main {
+
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 109px;
+}
+
+#logo_container {
+	height: 233px;
+	margin-top: 89px;
+}
+
+#header {
+	position: fixed;
+	top: -295px;
+	right: 0;
+	width: 100%;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #F2F2F2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+}
