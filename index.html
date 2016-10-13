@@ -9,10 +9,18 @@
 <body>
 	<div id="header">
 		<div id="header_container">
-			Gmail Images [Squares] Sign-In
+			<div id="header_links">
+				<a class="header_link" href="https://mail.google.com/mail/?tab=wm">Gmail</a><a class="header_link" id="images_link" href="https://www.google.com/imghp?hl=en&tab=wi&ei=7s7">Images</a>
+			</div>
+			<div id="header_rest">
+				<div id="squares"></div>
+				<div id="sign_in_box">
+					<a id="sign_in" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com">Sign in</a>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div id="main">
+	<div>
 		<div id="logo_container" tabindex="0">
 			<img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
 		</div>
@@ -20,8 +28,7 @@
 			<form><input type="text"></form>
 		</div>
 		<div id="button_container">
-			<input class="button" value="Google Search" aria-label="Google Search" type="submit">
-			<input class="button" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" type="submit">
+			<input class="button" value="Google Search" aria-label="Google Search" type="submit"><input class="button" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" type="submit">
 		</div>
 	</div>
 	<div id="footer">
@@ -33,7 +40,7 @@
 		<span id="r_footer">
 			<a class="footer_link" href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a>
 			<a class="footer_link" href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a>
-			Settings
+			<a class="footer_link" href="#">Settings</a>
 		</span>
 	</div>
 </body>
